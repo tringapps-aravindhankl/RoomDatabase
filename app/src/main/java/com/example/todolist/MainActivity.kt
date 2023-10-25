@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             Log.i("MYTAG", "BUTTON IS ENTER")
             var recyclerview: RecyclerView = findViewById(R.id.recycleview);
 
-
+//
             recyclerview.setHasFixedSize(true);
             recyclerview.layoutManager = LinearLayoutManager(this)
 
